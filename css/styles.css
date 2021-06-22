@@ -199,27 +199,6 @@ img{
     text-shadow: 0 20px 25px rgba(0,0,0,.5);
 }
 
-.typing__text{
-    color: #343F56;
-    font-size: var(--h2-font-size);
-    animation: typing 5s steps(10) infinite;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid pink;   
-    margin-bottom: 16rem; 
-}
-@keyframes typing{
- 0%{
-     width: 0ch;
- }
- 50%{
-     width: 10ch;
- }
- 100%{
-     width: 0ch;
- }
-}
-
 .home__scroll{
     align-self: flex-end;
     padding-bottom: var(--mb-4);
